@@ -13,6 +13,7 @@ def convert
   each_row do |row|
     numbers << values_in_row(row)
   end
+  numbers
 end
 
 def each_row
